@@ -1,4 +1,4 @@
-const ANTHROPIC_KEY = "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";
+const ANTHROPIC_KEY = process.env.ANTHROPIC_KEY;
 
 export default async function handler(req, res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
