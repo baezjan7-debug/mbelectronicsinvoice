@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "rewrites": [
-    { "source": "/api/parse-invoice", "destination": "/api/parse-invoice" },
-    { "source": "/(.*)", "destination": "/index.html" }
-  ]
-}
